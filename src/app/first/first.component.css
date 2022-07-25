@@ -1,0 +1,12 @@
+:host {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+span {
+    background-color: aqua;
+    font-weight: 1000;
+}
+
+  li {
+    color: crimson;
+  }
