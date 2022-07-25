@@ -1,1 +1,4 @@
-<p>second works!</p>
+<div id="nPag" *ngFor="let x of rNum | paginate: {itemsPerPage:itemsToDisplay, currentPage:page}">
+    {{ x }}    
+</div>
+<pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>

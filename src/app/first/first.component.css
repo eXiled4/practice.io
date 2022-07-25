@@ -30,3 +30,7 @@ span {
     margin-right: 5cm;
     float: right;
   }
+
+  #nPag {
+    display: grid;
+  }
