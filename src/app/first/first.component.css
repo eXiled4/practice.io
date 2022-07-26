@@ -17,20 +17,15 @@ span {
   }
 
   #nFor {
-    padding: auto;
-    margin-left: 5cm;
-    border: 1cm;
-    text-align: center;
-    display: inline-block;
-    border-color: aquamarine;
+    margin-left: auto; 
+    margin-right: 5cm;
+    float: right;
+    flex-direction: column;
   }
 
   #nForX {
     margin-left: auto; 
     margin-right: 5cm;
     float: right;
-  }
-
-  #nPag {
-    display: grid;
+    flex-direction: column;
   }

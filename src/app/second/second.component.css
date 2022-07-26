@@ -1,3 +1,9 @@
 #nPag {
-    display: grid;
+    display: block;
+    text-align: left;
+    flex-direction: column;
+  }
+  
+#h1Pag {
+    margin-left: 3cm;
   }
