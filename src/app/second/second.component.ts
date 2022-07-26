@@ -10,15 +10,15 @@ declare const genRandomNumbers: any;
 export class SecondComponent implements OnInit {
 
 
-    ranNum = <[]> genRandomNumbers().sort(function(x, y){
-      return x - y
-    });
-    page = 1;
-    itemsToDisplay = 10;
+  ranNums = <[]>genRandomNumbers().sort(function(y, x){
+    return x - y
+  }).filter((x) => x < 600)
+  page = 1;
+  itemsToDisplay = 10;
 
-    pageChanger(event){
-      this.page = event
-    }
+  pageChanger(event){
+    this.page = event
+  }
 
   // rNum = <[]>genRandomNumbers();
   // page = 1;

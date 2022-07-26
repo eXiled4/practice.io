@@ -1,9 +1,14 @@
 #nPag {
-    display: block;
-    text-align: left;
-    flex-direction: column;
+  margin-left: 3cm;
+  box-sizing: content-box;
+  display: inline-flex;
   }
   
 #h1Pag {
     margin-left: 3cm;
+    color: red;
   }
+
+sup {
+    color: blue;
+}

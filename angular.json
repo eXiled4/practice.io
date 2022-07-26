@@ -25,7 +25,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": ["src/assets/JS/randomnums.js"]
+            "scripts": [
+              "src/app/JS/randomnums.js"
+            ]
           },
           "configurations": {
             "production": {

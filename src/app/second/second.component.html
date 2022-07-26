@@ -1,7 +1,16 @@
 <h1 id="h1Pag">Pagination Prac</h1>
+
+<div id="nPag">
+    <fieldset>
+        <ul *ngFor="let x of ranNums | paginate: {itemsPerPage: itemsToDisplay, currentPage: page}"><li>Randomly generated numbers that are.. <sup>{{ x | testify}}</sup></li></ul>
+    </fieldset>
+</div>
+<pagination-controls (pageChange)="pageChanger($event)"></pagination-controls>
+
+<!-- <h1 id="h1Pag">Pagination Prac</h1>
 <div id="nPag" *ngFor="let x of ranNum | paginate: { itemsPerPage: itemsToDisplay, currentPage: page }">
         <ul>
             <li>{{ x }}</li>
             </ul>
 </div>
-<pagination-controls (pageChange)="pageChanger($event)"></pagination-controls>
+<pagination-controls (pageChange)="pageChanger($event)"></pagination-controls> -->
