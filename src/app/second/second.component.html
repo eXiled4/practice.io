@@ -2,7 +2,7 @@
 
 <div id="nPag">
     <fieldset>
-        <ul *ngFor="let x of ranNums | paginate: {itemsPerPage: itemsToDisplay, currentPage: page}"><li>Randomly generated numbers that are.. <sup>{{ x | testify}}</sup></li></ul>
+        <ul *ngFor="let x of ranNums | paginate: {itemsPerPage: itemsToDisplay, currentPage: page}"><li>Randomly generated <sub class="sub1">numbers that are..</sub> <sup class="sup1">{{ x | testify}}</sup></li></ul>
     </fieldset>
 </div>
 <pagination-controls (pageChange)="pageChanger($event)"></pagination-controls>

@@ -9,6 +9,10 @@
     color: red;
   }
 
-sup {
+.sup1{
     color: blue;
+}
+
+.sub1{
+    color: blueviolet;
 }
